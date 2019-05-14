@@ -1,0 +1,1 @@
+# swipe-away-card-ionic-app
