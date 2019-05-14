@@ -1,0 +1,112 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-buttons >
+      <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    </ion-buttons>
+    <!-- <ion-title>Special</ion-title> -->
+  </ion-navbar>
+</ion-header>
+ 
+<ion-content padding style="background-color: #efeff4">
+	 <ion-row>
+    <ion-col text-center class="salution">
+    	Good Morning
+    </ion-col>
+  </ion-row>
+	<ion-row>
+	    <ion-col text-center>
+	    	<ion-icon name="rainy" class="icon-clima"></ion-icon>
+	    	<p class="no-margin salution-turn">Morning</p>
+	    	<p class="no-margin clima-number">28°</p>
+	    </ion-col>
+	    <ion-col text-center>
+	      <ion-icon name="sunny" class="icon-clima"></ion-icon>
+	    	<p class="no-margin salution-turn">Afternoon</p>
+	    	<p class="no-margin clima-number">32°</p>
+	    </ion-col>
+	    <ion-col text-center>
+	      <ion-icon name="cloudy-night" class="icon-clima"></ion-icon>
+	    	<p class="no-margin salution-turn">Evening</p>
+	    	<p class="no-margin clima-number">27°</p>
+	    </ion-col>
+	</ion-row>
+
+	<mbsc-page>
+        
+        <mbsc-listview [options]="settings">
+
+            <mbsc-listview-item mbsc-card>
+                <mbsc-card-content>
+                    <mbsc-avatar src="https://img.mobiscroll.com/demos/netflix.png" draggable="false"></mbsc-avatar>
+                    <mbsc-card-title class="mbsc-bold">Netflix</mbsc-card-title>
+                    <mbsc-card-subtitle>Sherlock Series 3 is now avalable on Netflix</mbsc-card-subtitle>
+                </mbsc-card-content>
+            </mbsc-listview-item>
+
+            <mbsc-listview-item mbsc-card>
+                <mbsc-card-header>
+                    <mbsc-card-title>15 minutes to work</mbsc-card-title>
+                </mbsc-card-header>
+                <img src="https://img.mobiscroll.com/demos/route.png" draggable="false">
+                <div class="mbsc-btn-group-block">
+                    <mbsc-button flat class="mbsc-align-left" icon="ion-navigate">Navigate / 15 min. via Shotwell St</mbsc-button>
+                    <mbsc-button flat class="mbsc-align-left" icon="fa-rotate-left">Alternative route / 18 mins</mbsc-button>
+                </div>
+            </mbsc-listview-item>
+
+            <mbsc-listview-item mbsc-card>
+                <mbsc-card-content>
+                    <mbsc-avatar src="https://img.mobiscroll.com/demos/angrybirds.png" draggable="false"></mbsc-avatar>
+                    <mbsc-card-title class="mbsc-bold">Angry birds</mbsc-card-title>
+                    <mbsc-card-subtitle>Don't forget ysour daily Arena entry.</mbsc-card-subtitle>
+                </mbsc-card-content>
+            </mbsc-listview-item>
+        
+            <mbsc-listview-item mbsc-card>
+                <mbsc-card-content>
+                    <mbsc-card-title>Don't forget Jenifer's birthday</mbsc-card-title>
+                </mbsc-card-content>
+                <mbsc-card-footer>
+                    <mbsc-button flat icon="phone">Call</mbsc-button>
+                    <mbsc-button flat icon="bubble">Message</mbsc-button>
+                </mbsc-card-footer>
+            </mbsc-listview-item>
+        
+            <mbsc-listview-item mbsc-card>
+                <mbsc-card-content>
+                    <mbsc-avatar src="https://img.mobiscroll.com/demos/netflix.png" draggable="false"></mbsc-avatar>
+                    <mbsc-card-title class="mbsc-bold">Candycam</mbsc-card-title>
+                    <mbsc-card-subtitle>A new update is available!</mbsc-card-subtitle>
+                </mbsc-card-content>
+            </mbsc-listview-item>
+        
+            <mbsc-listview-item mbsc-card>
+                <mbsc-card-content>
+                    <mbsc-avatar src="https://img.mobiscroll.com/demos/subwaysurf.png" draggable="false"></mbsc-avatar>
+                    <mbsc-card-title class="mbsc-bold">Subway Surf</mbsc-card-title>
+                    <mbsc-card-subtitle>Is it your lucky day? 24-Hour Mega Jackpint Event happening right now!</mbsc-card-subtitle>
+                </mbsc-card-content>
+            </mbsc-listview-item>
+        
+            <mbsc-listview-item mbsc-card>
+                <mbsc-card-content>
+                    <mbsc-avatar src="https://img.mobiscroll.com/demos/mbsc-logo.png" draggable="false"></mbsc-avatar>
+                    <mbsc-card-title class="mbsc-bold">Mobiscroll</mbsc-card-title>
+                    <mbsc-card-subtitle>The new Mobiscroll 4.0.0 is out!</mbsc-card-subtitle>
+                </mbsc-card-content>
+            </mbsc-listview-item>
+
+        
+            <mbsc-listview-item mbsc-card>
+                <mbsc-card-content>
+                    <mbsc-avatar src="https://img.mobiscroll.com/demos/opencam.png" draggable="false"></mbsc-avatar>
+                    <mbsc-card-title class="mbsc-bold">Open Camera</mbsc-card-title>
+                    <mbsc-card-subtitle>A new update is available!</mbsc-card-subtitle>
+                </mbsc-card-content>
+            </mbsc-listview-item>
+        
+        </mbsc-listview>
+    </mbsc-page>
+</ion-content>
